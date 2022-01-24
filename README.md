@@ -81,3 +81,5 @@ then run:
 
 In your terminal, in your project root folder run:
 `php artisan serve`. This command should start up a server @ http://127.0.0.1:8000s
+
+### [Link To My Site](http://leebin-votings.herokuapp.com/scores)
