@@ -30,7 +30,7 @@ This is the solution to the Bincom dev interview problem.
 
 ### Clone from git
 
-`git clone https://github.com/narhzih/bincom-dev-sol.git`
+`git clone https://github.com/Halimatcd/Voting-Polls/tree/master`
 
 ### Create .env file
 
