@@ -15,44 +15,72 @@
                         <div class="col-12">
                             <div class="mb-1">
                                 <label class="form-label" for="first-name-vertical">Polling Unit Id</label>
-                                <input type="text" id="first-name-vertical" class="form-control" name="polling_unit_id" placeholder="sender Name" />
+                                <input type="text" id="first-name-vertical" class="form-control" name="polling_unit_id" placeholder="Polling Unit Id" />
                             </div>
-                        </div>
                         <div class="col-12">
                             <div class="mb-1">
-                                <label class="form-label" for="contact-info-vertical">Party Abbreviation</label>
-                                <input type="text" id="contact-info-vertical" class="form-control" name="party_abbreviation" placeholder="Sender number" />
+                                <label class="form-label" for="contact-info-vertical">Ward Id</label>
+                                <input type="text" id="contact-info-vertical" class="form-control" name="ward_id" placeholder="Ward Id" />
                             </div>
                           <div class="col-12">
                             <div class="mb-1">
-                                <label class="form-label" for="contact-info-vertical">Party Score</label>
-                                <input type="text" id="contact-info-vertical" class="form-control" name="party_score" placeholder="Sender number" />
+                                <label class="form-label" for="contact-info-vertical">Lga Id</label>
+                                <input type="text" id="contact-info-vertical" class="form-control" name="lga_id" placeholder="Lga Id" />
                             </div>
                         <div class="col-12">
                             <div class="mb-1">
-                                <label class="form-label" for="contact-info-vertical">Entered By</label>
-                                <input type="text" id="contact-info-vertical" class="form-control" name="entered_by_user" placeholder="Reciever number" />
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="mb-1">
-                                <label class="form-label" for="contact-info-vertical">Date Entered</label>
-                                <input type="text" id="contact-info-vertical" class="form-control" name="date_entered" placeholder="Item to be delivered" />
+                                <label class="form-label" for="contact-info-vertical">Unique Ward Id</label>
+                                <input type="text" id="contact-info-vertical" class="form-control" name="uniquewardid" placeholder="Unique Ward Id" />
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="mb-1">
-                                <label class="form-label" for="contact-info-vertical">User IP Address</label>
+                                <label class="form-label" for="contact-info-vertical">Polling Unit Number</label>
+                                <input type="text" id="contact-info-vertical" class="form-control" name="polling_unit_number" placeholder="Polling Unit Number" />
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-1">
+                                <label class="form-label" for="contact-info-vertical">Polling Unit Name</label>
+                                <input type="text" id="contact-info-vertical" class="form-control" name="polling_unit_name" placeholder="polling unit name" />
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-1">
+                                <label class="form-label" for="contact-info-vertical">Polling Unit Description</label>
+                                <input type="text" id="contact-info-vertical" class="form-control" name="polling_unit_description" placeholder="polling_unit_description" />
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-1">
+                                <label class="form-label" for="contact-info-vertical">Latitude</label>
+                                <input type="text" id="contact-info-vertical" class="form-control" name="lat" placeholder="latitude" />
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-1">
+                                <label class="form-label" for="contact-info-vertical">Longitude</label>
                                 <input type="text" id="contact-info-vertical" class="form-control" name="user_ip_address" placeholder="Pick up address" />
                             </div>
                         </div>
-                    
+                        <div class="col-12">
+                            <div class="mb-1">
+                                <label class="form-label" for="contact-info-vertical">Entered_by_user</label>
+                                <input type="text" id="contact-info-vertical" class="form-control" name="entered_by_user" placeholder="Entered by" />
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-1">
+                                <label class="form-label" for="contact-info-vertical">User_Ip_Address</label>
+                                <input type="text" id="contact-info-vertical" class="form-control" name="user_ip_address" placeholder="user ip address" />
+                            </div>
+                        </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-secondary me-1">Submit</button>
 
                         </div>
                     </div>
-                </form>
+                </form
             </div>
         </div>
     </div>

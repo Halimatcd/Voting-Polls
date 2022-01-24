@@ -34,27 +34,33 @@ class PollingunitController extends Controller
     {
         $rules = [
             'polling_unit_id' => 'required',
-            'party_abbreviation' => 'required',
-            'Party_score' => 'required'
+            'ward_id' => 'required',
+            'lga_id' => 'required'
 
         ];
         // Validator validated required fields
         $validator = Validator::make($request->all(), $rules);
         if ($validator->fails()) {
-            // print_r($validator->errors());
-            die();
+            print_r($validator->errors());
+            die('ko le werk');
         }
 
-        $pollingUnit = new AnnouncedPuResult();
+        $pollingUnit = new PollingUnit();
         $pollingUnit->polling_unit_id = $request->input('polling_unit_id');
-        $pollingUnit->party_abbreviation = $request->input('party_abbreviation');
-        $pollingUnit->party_score  = $request->input('party_score');
+        $pollingUnit->ward_id = $request->input('ward_id');
+        $pollingUnit->lga_id  = $request->input('lga_id');
+        $pollingUnit->uniquewardid = $request->input('uniquewardid');
+        $pollingUnit->polling_unit_number = $request->input('polling_unit_number');
+        $pollingUnit->polling_unit_name = $request->input('polling_unit_name');
+        $pollingUnit->polling_unit_description = $request->input('polling_unit_description');
+        $pollingUnit->lat = $request->input('lat');
+        $pollingUnit->long = $request->input('long');
         $pollingUnit->entered_by_user = $request->input('entered_by_user');
-        $pollingUnit->user_ip_address = $request->input('user_ip_address');
+        $pollingUnit->user_ip_address = $request->input('user_ip-address');
         $pollingUnit->save();
 
         // flash('Inventory created sucessfully')->success();
-        return view('pages.polling_units');
+        return redirect()->to('polling_units');
     }
     public function createNewPu()
     {

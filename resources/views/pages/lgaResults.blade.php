@@ -19,7 +19,7 @@
             </tbody>
             @endforeach
           </table>  
-          <p><b class="bg-dark text-white pt-1 pb-1 ps-3 pe-3">Total</b> : {{$result->sum('party_score')}}</p><br>
+          <p><b class="bg-dark text-white pt-1 pb-1 ps-3 pe-3">Total</b> : {{$results->sum('party_score')}}</p><br>
           <a href="/lga" class="btn btn-secondary btn-sm">Back</a>
     </div> 
   @endsection
